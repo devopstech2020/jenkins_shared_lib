@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-def call(Map config = [:]){
+def call(){
         node{
 		stage("demo stage"){
 			println "Hello World!"
